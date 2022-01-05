@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-
+//web orangehrm
 WebUI.openBrowser("")
 
 WebUI.navigateToUrl("https://opensource-demo.orangehrmlive.com/")
@@ -31,3 +31,4 @@ WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/input_Password_Subm
 WebUI.verifyTextPresent("Welcome",false)
 
 WebUI.closeBrowser()
+
